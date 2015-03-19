@@ -23,6 +23,7 @@ body {
 .title-card .line .string {
   color: #80CBC4;
   font-size: 1.1em;
+  font-family: Gill Sans;
 }
 .title-card .line .string.strong {
   font-size: 1.3em;
