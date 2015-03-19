@@ -1,27 +1,19 @@
-html, body {
-	margin: 0;
-	padding: 0;
-}
-
+html,
 body {
-	background-color: #E1F5FE;
+  margin: 0;
+  padding: 0;
+  background-color: #E1F5FE;
 }
-
 .title-card {
-	background-color: #009688;
-	position: fixed;
-	top: 15px;
-	left: 15px;
-	padding: 25px 30px;
-	font-size: 18px;
-	font-family: sans-serif;
-	color: #E3F2FD;
+  background-color: #009688;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  padding: 25px 30px;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #E3F2FD;
 }
-
-.title-card .line {
-
-}
-
 .title-card .line.indent {
-	margin-left: 30px;
+  margin-left: 30px;
 }
