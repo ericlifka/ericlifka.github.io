@@ -27,6 +27,13 @@ body {
 .title-card .line .string.strong {
   font-size: 1.3em;
 }
+.title-card .line .string a {
+  color: inherit;
+  text-decoration: none;
+}
+.title-card .line .string a:hover {
+  text-decoration: underline;
+}
 .title-card .line .label {
   display: inline-block;
   min-width: 105px;
