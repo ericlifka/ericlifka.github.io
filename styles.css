@@ -5,14 +5,13 @@ body {
   background-color: #E1F5FE;
 }
 .title-card {
-  background-color: #009688;
   position: fixed;
-  top: 15px;
-  left: 15px;
+  width: 100%;
   padding: 25px 30px;
+  background-color: #009688;
+  color: #E3F2FD;
   font-size: 18px;
   font-family: sans-serif;
-  color: #E3F2FD;
 }
 .title-card .line.indent {
   margin-left: 30px;
