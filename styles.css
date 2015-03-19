@@ -20,3 +20,6 @@ body {
 .title-card .line .identifier {
   color: #64B5F6;
 }
+.title-card .line .string {
+  color: #80CBC4;
+}
