@@ -25,5 +25,7 @@ body {
   font-size: 1.1em;
 }
 .title-card .line .label {
+  display: inline-block;
+  min-width: 75px;
   color: #E0F7FA;
 }
