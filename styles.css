@@ -12,7 +12,7 @@ body {
   color: #E3F2FD;
   font-size: 1.2em;
   line-height: 1.5em;
-  font-family: sans-serif;
+  font-family: "Andale Mono";
 }
 .title-card .line.indent {
   margin-left: 30px;
@@ -26,6 +26,6 @@ body {
 }
 .title-card .line .label {
   display: inline-block;
-  min-width: 75px;
+  min-width: 105px;
   color: #E0F7FA;
 }
