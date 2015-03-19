@@ -23,3 +23,6 @@ body {
 .title-card .line .string {
   color: #80CBC4;
 }
+.title-card .line .label {
+  color: #FFECB3;
+}
