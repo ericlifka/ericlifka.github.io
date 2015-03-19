@@ -24,6 +24,9 @@ body {
   color: #80CBC4;
   font-size: 1.1em;
 }
+.title-card .line .string.strong {
+  font-size: 1.3em;
+}
 .title-card .line .label {
   display: inline-block;
   min-width: 105px;
