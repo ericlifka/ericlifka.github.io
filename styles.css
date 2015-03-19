@@ -12,8 +12,16 @@ body {
 	position: fixed;
 	top: 15px;
 	left: 15px;
-	padding: 10px 30px;
+	padding: 25px 30px;
 	font-size: 18px;
 	font-family: sans-serif;
 	color: #E3F2FD;
+}
+
+.title-card .line {
+
+}
+
+.title-card .line.indent {
+	margin-left: 30px;
 }
