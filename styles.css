@@ -11,7 +11,7 @@ body {
   background-color: #1A237E;
   color: #E3F2FD;
   font-size: 1.2em;
-  line-height: 1.3em;
+  line-height: 1.5em;
   font-family: sans-serif;
 }
 .title-card .line.indent {
@@ -22,7 +22,8 @@ body {
 }
 .title-card .line .string {
   color: #80CBC4;
+  font-size: 1.1em;
 }
 .title-card .line .label {
-  color: #FFECB3;
+  color: #E0F7FA;
 }
