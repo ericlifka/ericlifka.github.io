@@ -17,3 +17,6 @@ body {
 .title-card .line.indent {
   margin-left: 30px;
 }
+.title-card .line .identifier {
+  color: #64B5F6;
+}
