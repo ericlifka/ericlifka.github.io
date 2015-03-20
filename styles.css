@@ -23,12 +23,13 @@ body {
 }
 .title-card .line.strong .string {
   font-size: 30px;
+  color: #64ffda;
 }
 .title-card .line .identifier {
   color: #03a9f4;
 }
 .title-card .line .string {
-  color: #64ffda;
+  color: #00bfa5;
   font-size: 20px;
   font-family: Gill Sans;
 }
