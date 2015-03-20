@@ -10,23 +10,27 @@ body {
   padding: 25px 30px;
   background-color: #1A237E;
   color: #E3F2FD;
-  font-size: 1.2em;
+  font-size: 18px;
   line-height: 1.5em;
   font-family: "Andale Mono";
 }
 .title-card .line.indent {
   margin-left: 30px;
 }
+.title-card .line.strong {
+  line-height: 30px;
+  vertical-align: middle;
+}
+.title-card .line.strong .string {
+  font-size: 30px;
+}
 .title-card .line .identifier {
   color: #64B5F6;
 }
 .title-card .line .string {
   color: #80CBC4;
-  font-size: 1.1em;
+  font-size: 20px;
   font-family: Gill Sans;
-}
-.title-card .line .string.strong {
-  font-size: 1.3em;
 }
 .title-card .line .string a {
   color: inherit;

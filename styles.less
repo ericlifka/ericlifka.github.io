@@ -12,13 +12,23 @@ html, body {
     background-color: #1A237E;
     color: #E3F2FD;
 
-	font-size: 1.2em;
+	font-size: 18px;
     line-height: 1.5em;
 	font-family: "Andale Mono";
+//    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
     .line {
         &.indent {
             margin-left: 30px;
+        }
+
+        &.strong {
+            line-height: 30px;
+            vertical-align: middle;
+
+            .string {
+                font-size: 30px;
+            }
         }
 
         .identifier {
@@ -27,12 +37,8 @@ html, body {
 
         .string {
             color: #80CBC4;
-            font-size: 1.1em;
+            font-size: 20px;
             font-family: Gill Sans;
-
-            &.strong {
-                font-size: 1.3em;
-            }
 
             & a {
                 color: inherit;
