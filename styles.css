@@ -7,13 +7,19 @@ body {
 .title-card {
   position: fixed;
   width: 100%;
-  padding: 35px 40px;
+  padding: 35px 45px;
   background-color: #01579b;
   color: #e1f5fe;
   font-size: 18px;
   font-family: "Andale Mono";
 }
 .title-card .line {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   line-height: 30px;
 }
 .title-card .line.indent {
@@ -30,6 +36,12 @@ body {
   color: #03a9f4;
 }
 .title-card .line .string {
+  -webkit-touch-callout: text;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
   color: #00bfa5;
   font-size: 20px;
   font-family: Gill Sans;

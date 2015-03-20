@@ -5,6 +5,15 @@
 @alternate-light: #64FFDA;
 @alternate-dark: #00BFA5;
 
+.select-rule(@select) {
+    -webkit-touch-callout: @select;
+    -webkit-user-select: @select;
+    -khtml-user-select: @select;
+    -moz-user-select: @select;
+    -ms-user-select: @select;
+    user-select: @select;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -23,6 +32,7 @@ html, body {
 	font-family: "Andale Mono";
 
     .line {
+        .select-rule(none);
         line-height: 30px;
 
         &.indent {
@@ -43,6 +53,7 @@ html, body {
         }
 
         .string {
+            .select-rule(text);
             color: @alternate-dark;
             font-size: 20px;
             font-family: Gill Sans;
