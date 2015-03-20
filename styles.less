@@ -1,7 +1,14 @@
+@primary-dark: #01579B;
+@primary-med: #03A9F4;
+@primary-light: #E1F5FE;
+
+@alternate-light: #64FFDA;
+@alternate-dark: #00BFA5;
+
 html, body {
 	margin: 0;
 	padding: 0;
-    background-color: #E1F5FE;
+    background-color: @primary-light;
 }
 
 .title-card {
@@ -9,13 +16,12 @@ html, body {
     width: 100%;
     padding: 25px 30px;
 
-    background-color: #1A237E;
-    color: #E3F2FD;
+    background-color: @primary-dark;
+    color: @primary-light;
 
 	font-size: 18px;
     line-height: 1.5em;
 	font-family: "Andale Mono";
-//    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
     .line {
         &.indent {
@@ -32,11 +38,11 @@ html, body {
         }
 
         .identifier {
-            color: #64B5F6;
+            color: @primary-med;
         }
 
         .string {
-            color: #80CBC4;
+            color: @alternate-light;
             font-size: 20px;
             font-family: Gill Sans;
 

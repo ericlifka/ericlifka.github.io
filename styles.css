@@ -2,14 +2,14 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #E1F5FE;
+  background-color: #e1f5fe;
 }
 .title-card {
   position: fixed;
   width: 100%;
   padding: 25px 30px;
-  background-color: #1A237E;
-  color: #E3F2FD;
+  background-color: #01579b;
+  color: #e1f5fe;
   font-size: 18px;
   line-height: 1.5em;
   font-family: "Andale Mono";
@@ -25,10 +25,10 @@ body {
   font-size: 30px;
 }
 .title-card .line .identifier {
-  color: #64B5F6;
+  color: #03a9f4;
 }
 .title-card .line .string {
-  color: #80CBC4;
+  color: #64ffda;
   font-size: 20px;
   font-family: Gill Sans;
 }
