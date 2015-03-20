@@ -14,11 +14,13 @@ body {
   line-height: 1.5em;
   font-family: "Andale Mono";
 }
+.title-card .line {
+  line-height: 30px;
+}
 .title-card .line.indent {
   margin-left: 30px;
 }
 .title-card .line.strong {
-  line-height: 30px;
   vertical-align: middle;
 }
 .title-card .line.strong .string {
