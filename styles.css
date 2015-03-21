@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: #e1f5fe;
+  font-family: "Gill Sans";
+  font-size: 18px;
+  color: #666666;
 }
 .title-card {
   padding: 35px 45px;
@@ -42,7 +45,7 @@ body {
   user-select: text;
   color: #00bfa5;
   font-size: 20px;
-  font-family: Gill Sans;
+  font-family: "Gill Sans";
 }
 .title-card .line .string a {
   color: inherit;

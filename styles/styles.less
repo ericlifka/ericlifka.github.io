@@ -5,6 +5,11 @@
 @alternate-light: #64FFDA;
 @alternate-dark: #00BFA5;
 
+@text-grey: #666666;
+
+@fixed-width-font: "Andale Mono";
+@standard-font: "Gill Sans";
+
 .select-rule(@select) {
     -webkit-touch-callout: @select;
     -webkit-user-select: @select;
@@ -18,6 +23,9 @@ html, body {
 	margin: 0;
 	padding: 0;
     background-color: @primary-light;
+    font-family: @standard-font;
+    font-size: 18px;
+    color: @text-grey;
 }
 
 .title-card {
@@ -27,7 +35,7 @@ html, body {
     color: @primary-light;
 
 	font-size: 18px;
-	font-family: "Andale Mono";
+	font-family: @fixed-width-font;
 
     .line {
         .select-rule(none);
@@ -54,7 +62,7 @@ html, body {
             .select-rule(text);
             color: @alternate-dark;
             font-size: 20px;
-            font-family: Gill Sans;
+            font-family: @standard-font;
 
             & a {
                 color: inherit;
