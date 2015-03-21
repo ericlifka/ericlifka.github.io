@@ -9,7 +9,7 @@ module.exports = function (grunt) {
             development: {
                 paths: ['styles'],
                 files: {
-                    "./styles.css": "./styles/styles.less"
+                    "resources/styles.css": "styles/styles.less"
                 }
             }
         },
@@ -21,21 +21,29 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: {
-                    'app.js': 'js/app.js'
+                    'resources/app.js': 'js/app.js'
                 }
+            }
+        },
+        copy: {
+            main: {
+                src: 'node_modules/requirejs/require.js',
+                dest: 'resources/require.js'
             }
         },
         watch: {
             files: [
                 'styles/**/*.less',
-                'js/**/*.js'
+                'js/**/*.js',
+                'node_modules/requirejs/**/*'
             ],
             tasks: [
                 'less',
-                'babel'
+                'babel',
+                'copy'
             ]
         }
     });
 
-    grunt.registerTask('default', ['watch']);
+    grunt.registerTask('default', ['less', 'babel', 'copy', 'watch']);
 };
