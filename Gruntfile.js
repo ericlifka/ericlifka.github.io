@@ -13,9 +13,25 @@ module.exports = function (grunt) {
                 }
             }
         },
+        babel: {
+            options: {
+                sourceMap: true
+            },
+            dist: {
+                files: {
+                    'app.js': 'js/app.js'
+                }
+            }
+        },
         watch: {
-            files: ['**/*.less'],
-            tasks: ['less']
+            files: [
+                'styles/**/*.less',
+                'js/**/*.js'
+            ],
+            tasks: [
+                'less',
+                'babel'
+            ]
         }
     });
 
