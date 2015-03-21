@@ -1,31 +1,12 @@
-@primary-dark: #01579B;
-@primary-med: #03A9F4;
-@primary-light: #E1F5FE;
-
-@alternate-light: #64FFDA;
-@alternate-dark: #00BFA5;
-
-@text-grey: #666666;
-
-@fixed-width-font: "Andale Mono";
-@standard-font: "Gill Sans";
-
-.select-rule(@select) {
-    -webkit-touch-callout: @select;
-    -webkit-user-select: @select;
-    -khtml-user-select: @select;
-    -moz-user-select: @select;
-    -ms-user-select: @select;
-    user-select: @select;
-}
+@import 'variables';
 
 html, body {
 	margin: 0;
 	padding: 0;
     background-color: @primary-light;
     font-family: @standard-font;
-    font-size: 18px;
-    color: @text-grey;
+    font-size: @default-font-size;
+    color: @default-font-color;
 }
 
 .title-card {
