@@ -6,8 +6,9 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
         less: {
             development: {
+                paths: ['styles'],
                 files: {
-                    "./styles.css": "./styles.less"
+                    "./styles.css": "./styles/styles.less"
                 }
             }
         },
