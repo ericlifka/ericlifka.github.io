@@ -1,4 +1,12 @@
-"use strict";
+define(["exports", "module"], function (exports, module) {
+    "use strict";
 
-console.log("test1234");
+    var App = {
+        bootstrap: function bootstrap() {
+            return this;
+        }
+    };
+
+    module.exports = App.bootstrap();
+});
 //# sourceMappingURL=app.js.map

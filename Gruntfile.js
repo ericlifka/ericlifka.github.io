@@ -15,7 +15,9 @@ module.exports = function (grunt) {
         },
         babel: {
             options: {
-                sourceMap: true
+                sourceMap: true,
+                sourceRoot: 'js',
+                modules: 'amd'
             },
             dist: {
                 files: {

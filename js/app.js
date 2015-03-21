@@ -1,1 +1,9 @@
-console.log('test1234');
+
+
+const App = {
+    bootstrap() {
+        return this;
+    }
+};
+
+export default App.bootstrap();
