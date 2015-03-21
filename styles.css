@@ -5,8 +5,6 @@ body {
   background-color: #e1f5fe;
 }
 .title-card {
-  position: fixed;
-  width: 100%;
   padding: 35px 45px;
   background-color: #01579b;
   color: #e1f5fe;
