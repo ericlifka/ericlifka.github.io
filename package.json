@@ -1,5 +1,10 @@
 {
-    "name": "ericlifka.github.io",
-    "version": "0.1.0",
-    "repository": "https://github.com/ericlifka/ericlifka.github.io.git"
+  "name": "ericlifka.github.io",
+  "version": "0.1.0",
+  "repository": "https://github.com/ericlifka/ericlifka.github.io.git",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
 }
