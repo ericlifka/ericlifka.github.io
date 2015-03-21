@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/app.js"],"names":[],"mappings":";;;AAEA,QAAM,GAAG,GAAG;AACR,iBAAS,EAAA,qBAAG;AACR,mBAAO,IAAI,CAAC;SACf;KACJ,CAAC;;qBAEa,GAAG,CAAC,SAAS,EAAE","file":"js/app.js","sourceRoot":"js","sourcesContent":["\n\nconst App = {\n    bootstrap() {\n        return this;\n    }\n};\n\nexport default App.bootstrap();\n"]}
