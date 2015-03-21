@@ -1,6 +1,7 @@
+var loadGruntTasks = require('load-grunt-tasks');
+
 module.exports = function (grunt) {
-    grunt.loadNpmTasks('grunt-contrib-less');
-    grunt.loadNpmTasks('grunt-contrib-watch');
+    loadGruntTasks(grunt);
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
