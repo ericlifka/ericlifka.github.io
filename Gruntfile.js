@@ -15,9 +15,9 @@ module.exports = function (grunt) {
         },
         babel: {
             options: {
-                sourceMap: true,
+                sourceMap: "inline",
                 sourceRoot: 'js',
-                modules: 'amd'
+                modules: "common"
             },
             dist: {
                 files: {
@@ -27,8 +27,8 @@ module.exports = function (grunt) {
         },
         copy: {
             main: {
-                src: 'node_modules/requirejs/require.js',
-                dest: 'resources/require.js'
+                src: 'node_modules/babel-core/browser-polyfill.js',
+                dest: 'resources/browser-polyfill.js'
             }
         },
         watch: {
